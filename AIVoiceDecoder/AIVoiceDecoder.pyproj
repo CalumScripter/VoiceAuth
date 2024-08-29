@@ -23,7 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="app - Copy - Copy.py" />
+    <Compile Include="app-copy.py" />
+    <Compile Include="train.py" />
+    <Compile Include="dataset compiler.py" />
     <Compile Include="app.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
