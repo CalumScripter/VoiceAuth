@@ -24,6 +24,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app-copy.py" />
+    <Compile Include="feature extracter %28voice + labels%29 - Copy.py" />
+    <Compile Include="VoiceAuth testings.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="train.py" />
     <Compile Include="dataset compiler.py" />
     <Compile Include="app.py" />
