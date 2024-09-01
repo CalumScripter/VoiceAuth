@@ -65,11 +65,14 @@
 ###############################################################################
 # Linguist Documentation for GitHub
 #
-# Mark certain files as documentation or vendored to improve language detection
+# Mark certain files as vendored to improve language detection accuracy
 ###############################################################################
-*.html linguist-documentation
-*.tex linguist-documentation
+*.html linguist-vendored
+*.tex linguist-vendored
 
-# Optional: Mark as vendored instead if these files are third-party and should not count in language statistics
-#*.html linguist-vendored
-#*.tex linguist-vendored
+# Ensure Python files are correctly classified
+*.py linguist-language=Python
+
+# Optional: Comment out if you want to mark HTML and TeX as documentation
+#*.html linguist-documentation
+#*.tex linguist-documentation
