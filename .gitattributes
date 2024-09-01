@@ -4,6 +4,17 @@
 * text=auto
 
 ###############################################################################
+# Ignore all files globally for language statistics
+###############################################################################
+* linguist-vendored
+
+###############################################################################
+# Include only files in the AIVoiceDecoder folder for language statistics
+###############################################################################
+/AIVoiceDecoder/* linguist-vendored=false
+/AIVoiceDecoder/**/* linguist-vendored=false
+
+###############################################################################
 # Set default behavior for command prompt diff.
 #
 # This is need for earlier builds of msysgit that does not have it on by
@@ -61,14 +72,3 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
-
-###############################################################################
-# Linguist Documentation for GitHub
-#
-# Exclude all TeX and HTML files from language statistics
-###############################################################################
-*.tex linguist-vendored
-*.html linguist-vendored
-
-# Ensure Python files are correctly classified
-*.py linguist-language=Python
