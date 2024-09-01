@@ -65,14 +65,13 @@
 ###############################################################################
 # Linguist Documentation for GitHub
 #
-# Mark certain files as vendored to improve language detection accuracy
+# Exclude HTML and TeX files from language statistics
 ###############################################################################
 *.html linguist-vendored
 *.tex linguist-vendored
+# Specify paths to particularly large TeX files that skew statistics
+# Update the path below to match your project's structure
+# path/to/specific/largefile.tex linguist-vendored
 
 # Ensure Python files are correctly classified
 *.py linguist-language=Python
-
-# Optional: Comment out if you want to mark HTML and TeX as documentation
-#*.html linguist-documentation
-#*.tex linguist-documentation
