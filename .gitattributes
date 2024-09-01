@@ -65,9 +65,10 @@
 ###############################################################################
 # Linguist Documentation for GitHub
 #
-# Exclude all TeX files from language statistics
+# Exclude all TeX and HTML files from language statistics
 ###############################################################################
 *.tex linguist-vendored
+*.html linguist-vendored
 
 # Ensure Python files are correctly classified
 *.py linguist-language=Python
