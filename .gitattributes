@@ -61,3 +61,15 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+###############################################################################
+# Linguist Documentation for GitHub
+#
+# Mark certain files as documentation or vendored to improve language detection
+###############################################################################
+*.html linguist-documentation
+*.tex linguist-documentation
+
+# Optional: Mark as vendored instead if these files are third-party and should not count in language statistics
+#*.html linguist-vendored
+#*.tex linguist-vendored
