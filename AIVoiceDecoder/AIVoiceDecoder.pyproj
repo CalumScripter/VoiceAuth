@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5edb3a2d-6962-4fc5-a05f-15a5cd38f756</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>app.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +24,7 @@
   <ItemGroup>
     <Compile Include="app-copy.py" />
     <Compile Include="feature extracter %28voice + labels%29 - Copy.py" />
+    <Compile Include="whole model info.py" />
     <Compile Include="VoiceAuth testings.py">
       <SubType>Code</SubType>
     </Compile>
